@@ -1,5 +1,5 @@
 
-## typecking is broken: 
+## typecking is broken
 
 ```
 pnpm typecheck-all
