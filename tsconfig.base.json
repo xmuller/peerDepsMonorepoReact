@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ESNext",
+    // Don't emit; we use SWC to transpile files.
+    "noEmit": true,
+    "incremental": false,
+    "types": ["vite/client"],
+    "strict": true,
+    "allowJs": false,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "exactOptionalPropertyTypes": false,
+    // "importsNotUsedAsValues": "error",
+    "noErrorTruncation": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "strictPropertyInitialization": false,
+    "verbatimModuleSyntax": true
+  },
+  "exclude": ["**/node_modules/*"],
+}
